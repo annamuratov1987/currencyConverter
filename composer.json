@@ -1,0 +1,24 @@
+{
+  "name":"mycompany/currencyConverter",
+  "version":"1.0.0",
+  "require":{
+    "php":">=5.3.0",
+    "jmsoft/currencyService":"dev-master"
+  },
+
+  "autoload":{
+    "psr-4":{
+      "CurrencyService\\":"jmsoft/currencyService/CurrencyService/"
+    }
+  },
+
+  "repositories":[
+    {
+      "type":"vcs",
+      "url":"https://github.com/annamuratov1987/currencyservice"
+    }
+  ]
+
+
+
+}
